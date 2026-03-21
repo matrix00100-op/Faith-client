@@ -1,0 +1,43 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.slither.cyemer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AbstractClientPlayerEntityMixin",
+    "ArmorFeatureRendererMixin",
+    "ChatHudMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayerInteractionManagerMixin$ClientPlayerInteractionManagerAccessor",
+    "ClientPlayNetworkHandlerMixin",
+    "GameRendererAccessor",
+    "GameRendererMixin",
+    "HandledScreenAccessor",
+    "HandledScreenInterface",
+    "HandledScreenMixin",
+    "HeldItemRendererMixin",
+    "InGameHudMixin",
+    "InventoryScreenMixin",
+    "KeyBindingAccessor",
+    "LivingEntityRendererMixin",
+    "MinecraftClientAccessor",
+    "MinecraftClientMixin",
+    "MouseMixin",
+    "PlayerEntityModelMixin",
+    "PlayerListEntryMixin",
+    "SimpleOptionAccessor",
+    "TextRendererMixin",
+    "WindowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ClientConnectionMixin",
+    "EntityGlowingMixin",
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "PlayerInventoryAccessor",
+    "ShaderLoaderMixin"
+  ]
+}
