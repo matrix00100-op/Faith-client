@@ -44,6 +44,7 @@ import com.slither.cyemer.module.implementation.combat.AnchorMacro;
 import com.slither.cyemer.module.implementation.combat.AntiDivebomb;
 import com.slither.cyemer.module.implementation.combat.AutoAnchor;
 import com.slither.cyemer.module.implementation.combat.AutoCrit;
+import com.slither.cyemer.module.implementation.combat.HitBox;
 import com.slither.cyemer.module.implementation.combat.AutoCrystal;
 import com.slither.cyemer.module.implementation.combat.AutoElytra;
 import com.slither.cyemer.module.implementation.combat.AutoGrapple;
@@ -153,6 +154,7 @@ public class ModuleManager {
       this.modules.add(new CartRefill());
       this.modules.add(new XbowCart());
       this.modules.add(new AutoCrit());
+        this.modules.add(new HitBox());
    }
 
    public void onTick() {
